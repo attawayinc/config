@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Run
-# $ mkdir GitHub && curl https://raw.githubusercontent.com/MilanAryal/config/master/config.sh > ~/GitHub/config.sh && bash ~/GitHub/config.sh
+# $ mkdir GitHub && curl https://raw.githubusercontent.com/mcaj-admin/config/master/config.sh > ~/GitHub/config.sh && bash ~/GitHub/config.sh
 
 # Because Git submodule commands cannot operate without a work tree, they must
 # be run from within $HOME (assuming this is the root of your dotfiles)
@@ -35,7 +35,7 @@ github_dir="$HOME/GitHub/"
 ruby_version="2.5.8"
 
 printf "%s\n======================================================================\n%s" $yellow $end
-printf "%s# Loading MilanAryal/config\n%s" $yellow $end
+printf "%s# Loading mcaj-admin/config\n%s" $yellow $end
 printf "%s======================================================================\n%s" $yellow $end
 
 #
@@ -125,7 +125,7 @@ mkdir -p GitHub
 printf "%s\nInstall GitHub Desktop (https://desktop.github.io/)\n%s" $yellow $end
 printf "%s\nSetup clonning local path → \\\\\wsl\$\\\<DISTRO_NAME>\\\home\\\<USER_NAME>\\\GitHub\n%s" $yellow $end
 
-printf "%s\nFor more info visit → https://github.com/MilanAryal/config\n%s" $blue $end
+printf "%s\nFor more info visit → https://github.com/mcaj-admin/config\n%s" $blue $end
 
 #
 # All done!
